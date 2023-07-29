@@ -10,3 +10,4 @@ function editInPlace() {
   // Only change code above this line
 }
 editInPlace();
+console.log(editInPlace());

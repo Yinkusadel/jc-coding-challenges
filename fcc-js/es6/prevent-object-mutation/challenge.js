@@ -1,4 +1,3 @@
-// Solve the challenge in this JavaScript file
 function freezeObj() {
   const MATH_CONSTANTS = {
     PI: 3.14,
@@ -14,4 +13,5 @@ function freezeObj() {
   }
   return MATH_CONSTANTS.PI;
 }
-const PI = freezeObj();
+
+console.log(freezeObj());

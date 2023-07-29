@@ -8,3 +8,4 @@ function checkScope() {
   console.log('Function scope i is: ', i);
   return 'function scope';
 }
+console.log(checkScope());
