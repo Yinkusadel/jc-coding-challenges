@@ -6,15 +6,14 @@
 
 **Any attempt at changing the object will be rejected, with an error thrown if the script is running in strict mode.**
 
-```
-
+```js
 let obj = {
-name:"FreeCodeCamp",
-review:"Awesome"
+  name: 'FreeCodeCamp',
+  review: 'Awesome',
 };
 Object.freeze(obj);
-obj.review = "bad";
-obj.newProp = "Test";
+obj.review = 'bad';
+obj.newProp = 'Test';
 console.log(obj);
 ```
 

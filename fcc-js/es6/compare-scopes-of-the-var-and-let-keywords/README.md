@@ -10,10 +10,10 @@
 
 **For example:**
 
-```
+```js
 var numArray = [];
 for (var i = 0; i < 3; i++) {
-numArray.push(i);
+  numArray.push(i);
 }
 console.log(numArray);
 console.log(i);
@@ -23,12 +23,11 @@ console.log(i);
 
 **With the var keyword, i is declared globally. So when i++ is executed, it updates the global variable. This code is similar to the following:**
 
-```
-
+```js
 var numArray = [];
 var i;
 for (i = 0; i < 3; i++) {
-numArray.push(i);
+  numArray.push(i);
 }
 console.log(numArray);
 console.log(i);
@@ -38,15 +37,14 @@ console.log(i);
 
 **This behavior will cause problems if you were to create a function and store it for later use inside a for loop that uses the i variable. This is because the stored function will always refer to the value of the updated global i variable.**
 
-```
-
+```js
 var printNumTwo;
 for (var i = 0; i < 3; i++) {
-if (i === 2) {
-printNumTwo = function() {
-return i;
-};
-}
+  if (i === 2) {
+    printNumTwo = function () {
+      return i;
+    };
+  }
 }
 console.log(printNumTwo());
 ```
@@ -55,15 +53,14 @@ console.log(printNumTwo());
 
 **As you can see, printNumTwo() prints 3 and not 2. This is because the value assigned to i was updated and the printNumTwo() returns the global i and not the value i had when the function was created in the for loop. The let keyword does not follow this behavior:**
 
-```
-
+```js
 let printNumTwo;
 for (let i = 0; i < 3; i++) {
-if (i === 2) {
-printNumTwo = function() {
-return i;
-};
-}
+  if (i === 2) {
+    printNumTwo = function () {
+      return i;
+    };
+  }
 }
 console.log(printNumTwo());
 console.log(i);
