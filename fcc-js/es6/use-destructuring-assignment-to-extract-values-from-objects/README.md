@@ -1,6 +1,4 @@
-# Add challenge details and instructions here
-
-## Use Destructuring Assignment to Extract Values from Objects
+# Use Destructuring Assignment to Extract Values from Objects
 
 **Destructuring assignment is special syntax introduced in ES6, for neatly assigning values taken directly from an object.**
 

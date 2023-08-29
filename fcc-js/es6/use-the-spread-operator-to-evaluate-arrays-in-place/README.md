@@ -1,6 +1,4 @@
-# Add challenge details and instructions here
-
-### Use the Spread Operator to Evaluate Arrays In-Place
+# Use the Spread Operator to Evaluate Arrays In-Place
 
 **ES6 introduces the spread operator, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.**
 

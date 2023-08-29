@@ -1,6 +1,4 @@
-# Add challenge details and instructions here
-
-### Set Default Parameters for Your Functions
+# Set Default Parameters for Your Functions
 
 **In order to help us create more flexible functions, ES6 introduces default parameters for functions.**
 

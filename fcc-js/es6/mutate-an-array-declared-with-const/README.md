@@ -1,6 +1,4 @@
-# Add challenge details and instructions here
-
-## Mutate an Array Declared with const
+# Mutate an Array Declared with const
 
 **If you are unfamiliar with const, check out this challenge about the const keyword.**
 

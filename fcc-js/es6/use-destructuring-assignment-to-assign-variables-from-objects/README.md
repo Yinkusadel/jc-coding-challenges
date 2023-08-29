@@ -1,6 +1,4 @@
-# Add challenge details and instructions here
-
-## Use Destructuring Assignment to Assign Variables from Objects
+# Use Destructuring Assignment to Assign Variables from Objects
 
 **Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name after a colon when assigning the value.**
 

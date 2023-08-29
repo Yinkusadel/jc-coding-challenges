@@ -1,6 +1,4 @@
-# Add challenge details and instructions here
-
-## Write Arrow Functions with Parameters
+# Write Arrow Functions with Parameters
 
 **Just like a regular function, you can pass arguments into an arrow function.**
 
