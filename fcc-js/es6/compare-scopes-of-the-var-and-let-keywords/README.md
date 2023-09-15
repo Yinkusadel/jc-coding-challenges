@@ -1,6 +1,4 @@
-# Add challenge details and instructions here
-
-## Compare Scopes of the var and let Keywords
+# Compare Scopes of the var and let Keywords
 
 **If you are unfamiliar with let, check out this challenge about the difference between let and var.**
 
