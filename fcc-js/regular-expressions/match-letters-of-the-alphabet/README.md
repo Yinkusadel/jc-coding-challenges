@@ -7,9 +7,9 @@
 **For example, to match lowercase letters a through e you would use `[a-e]`.**
 
 ```js
-let catStr = "cat";
-let batStr = "bat";
-let matStr = "mat";
+let catStr = 'cat';
+let batStr = 'bat';
+let matStr = 'mat';
 let bgRegex = /[a-e]at/;
 catStr.match(bgRegex);
 batStr.match(bgRegex);
