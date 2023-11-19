@@ -1,0 +1,2 @@
+const compareTriplets = require('./challenge');
+
