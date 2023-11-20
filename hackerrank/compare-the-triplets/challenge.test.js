@@ -11,7 +11,7 @@ describe('compareTriplets', () => {
     expect(result).toEqual([1, 1]);
   });
 
-  it('should return [3, 0] for input arrays [5, 6, 7] and [3, 6, 10]', () => {
+  it('should return [3, 0] for input arrays [10, 15, 20] and [5, 6, 7]', () => {
     const result = compareTriplets([10, 15, 20], [5, 6, 7]);
     expect(result).toEqual([3, 0]);
   });
