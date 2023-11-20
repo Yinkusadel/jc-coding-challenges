@@ -35,4 +35,9 @@ describe('compareTriplets', () => {
     const result = compareTriplets([20, 20, 30], [20, 20, 50]);
     expect(result).toEqual([0, 1]);
   });
+
+  it('should return [2 ,1] for input arrays [17, 28, 30] and [99, 16, 8]', () => {
+    const result = compareTriplets([17, 28, 30], [99, 16, 8]);
+    expect(result).toEqual([2, 1]);
+  });
 });
