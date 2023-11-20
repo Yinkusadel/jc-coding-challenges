@@ -86,4 +86,4 @@
 **Comparing the `1th` and `2nd` elements `26 > 16` and `30 > 8`, and so Alice receives two points.**
 **The return array is .[2,1]**
 
-### Here is the link to the projects [requirement page](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
+### Here is the link to the challenge's [requirement page](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
